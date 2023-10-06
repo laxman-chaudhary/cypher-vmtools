@@ -1,0 +1,4 @@
+##前缀1表示只有目录，2表示包含item，3表示包含item和value。规则和提示之间用 ";+;" 分隔开,注册表中间用 "$^@" 分隔开 
+
+
+3HKEY_LOCAL_MACHINE$^@SYSTEM$^@CurrentControlSet$^@Control$^@Class$^@{4D36E967-E325-11CE-BFC1-08002BE10318}$^@LowerFilters$^@fsefd;+;检测到disksafe软件，请确认当前是否使用disksafe备份，需要联系cdp厂家确认是否支持kvm虚拟机及virtio磁盘，有数据丢失风险！

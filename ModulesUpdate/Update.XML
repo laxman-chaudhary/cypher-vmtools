@@ -1,0 +1,36 @@
+﻿<!--配置文件中的字段区分大小写-->
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <module>
+    <ModuleName>ModulesUpdate</ModuleName>
+    <ModuleType>SERVER</ModuleType>
+    <Promote>0</Promote>
+    <Version>2.178.0</Version>
+    <PackageDir></PackageDir>
+    <Dependence></Dependence>
+    <UnstallPath></UnstallPath>
+    <UnstallArgs></UnstallArgs>
+    <InstallPath>Installer.exe</InstallPath>
+    <InstallArgs></InstallArgs>
+    <MD5>c773cf96fae93f4487a289ab479bcaa3</MD5>
+    <UpdateResult></UpdateResult>
+    <UnstallResult></UnstallResult>
+    <InstallResult></InstallResult>
+  </module>
+  <module>
+    <ModuleName>VMOptimizationTools</ModuleName>
+    <ModuleType>SERVER</ModuleType>
+    <Promote>0</Promote>
+    <Version>2.171.0</Version>
+    <PackageDir></PackageDir>
+    <Dependence></Dependence>
+    <UnstallPath></UnstallPath>
+    <UnstallArgs></UnstallArgs>
+    <InstallPath>VMOptimizationTools.exe</InstallPath>
+    <InstallArgs>/autoupdate</InstallArgs>
+    <MD5>b1ed69341525b497d2a3dba078fe4765</MD5>
+    <UpdateResult></UpdateResult>
+    <UnstallResult></UnstallResult>
+    <InstallResult></InstallResult>
+  </module>
+</root>

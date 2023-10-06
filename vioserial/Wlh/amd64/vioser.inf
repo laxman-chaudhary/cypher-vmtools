@@ -1,0 +1,101 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; Copyright (c) 2010-2016 Sangfor Inc.
+;
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=System
+ClassGuid={4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider=%Sangfor%
+DriverVer=03/26/2018,60.61.101.58000 
+CatalogFile=vioser.cat
+DriverPackageType = PlugAndPlay
+DriverPackageDisplayName = %FastIOSerial.DeviceDesc%
+PnpLockdown = 1
+
+[DestinationDirs]
+DefaultDestDir = 12
+FastIOSerial_Device_CoInstaller_CopyFiles = 11
+
+[SourceDisksFiles]
+vioser.sys  = 1,,
+
+[SourceDisksNames]
+1 = %DiskId1%,,,""
+
+;*****************************************
+; vioser  Install Section
+;*****************************************
+
+[Manufacturer]
+%Sangfor%=FastIOSerial,NTAMD64
+
+[FastIOSerial.NTAMD64]
+;
+; Hw Id is PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4
+;
+%FastIOSerial.DeviceDesc%=FastIOSerial_Device, PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00
+
+; Decorated model section take precedence over undecorated
+; ones on XP and later.
+[FastIOSerial.NTAMD64]
+%FastIOSerial.DeviceDesc%=FastIOSerial_Device, PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00
+
+[FastIOSerial_Device.NT]
+CopyFiles=Drivers_Dir
+
+[FastIOSerial_Device.NT.HW]
+AddReg=FastIOSerial_AddReg
+
+[FastIOSerial_AddReg]
+HKR,Interrupt Management,,0x00000010
+HKR,Interrupt Management\MessageSignaledInterruptProperties,,0x00000010
+HKR,Interrupt Management\MessageSignaledInterruptProperties,MSISupported,0x00010001,1
+HKR,Interrupt Management\MessageSignaledInterruptProperties,MessageNumberLimit,0x00010001,2
+
+[Drivers_Dir]
+vioser.sys
+
+;-------------- Service installation
+
+[FastIOSerial_Device.NT.Services]
+AddService = FastIOSerial, 0x00000002, FastIOSerial_Service_Inst
+
+; -------------- FastIOSerial driver install sections
+[FastIOSerial_Service_Inst]
+DisplayName    = %FastIOSerial.ServiceDesc%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\vioser.sys
+
+;--- FastIOSerial_Device Coinstaller installation ------
+;
+
+[FastIOSerial_Device.NT.CoInstallers]
+AddReg=FastIOSerial_Device_CoInstaller_AddReg
+CopyFiles=FastIOSerial_Device_CoInstaller_CopyFiles
+
+[FastIOSerial_Device_CoInstaller_AddReg]
+HKR,,CoInstallers32,0x00010000, "WdfCoInstaller01009.dll,WdfCoInstaller"
+
+[FastIOSerial_Device_CoInstaller_CopyFiles]
+WdfCoInstaller01009.dll
+
+[SourceDisksFiles]
+WdfCoInstaller01009.dll=1 ; make sure the number matches with SourceDisksNames
+
+[FastIOSerial_Device.NT.Wdf]
+KmdfService =  FastIOSerial, FastIOSerial_wdfsect
+
+[FastIOSerial_wdfsect]
+KmdfLibraryVersion = 1.9
+
+[Strings]
+Sangfor = "Sangfor, Inc."
+DiskId1 = "FastIO Serial Installation Disk #1"
+FastIOSerial.DeviceDesc = "FastIO Serial Driver"
+FastIOSerial.ServiceDesc = "FastIO Serial Service"

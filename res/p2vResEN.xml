@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content>
+    <Item id="1" name="Failed to check for VT or VT is not enabled. " />
+    <Item id="2" name="At least two CPU cores are required. If CPU hyper-threading is supported, enable it in BIOS. " />
+    <Item id="3" name="Failed to protect conversion file." />
+    <Item id="4" name="Failed to uninstall Sangfor Converter." />
+    <Item id="5" name="Uninstall Sangfor Converter successfully." />
+    <Item id="6" name="Failed to install Sangfor Converter. Please contact Sangfor technical support, or call us at 408-520-7898 and follow the instructions." />
+    <Item id="7" name="Failed to check HCI environment." />
+    <Item id="8" name="VT is not enabled" />
+    <Item id="9" name="The program cannot run on virtual machine." />
+    <Item id="10" name="The operating system is not supported." />
+    <Item id="11" name="Cluster size of partition cannot be larger than %luKB." />
+    <Item id="12" name="System cannot contain disks with the same ID." />
+    <Item id="13" name="It cannot contain dynamic disk or soft raid." />
+    <Item id="14" name="Boot partition cannot be in GPT." />
+    <Item id="15" name="Boot partition cannot be in GPT." />
+    <Item id="16" name="Boot partition cannot be in dynamic disk or soft raid." />
+    <Item id="17" name="System partition cannot be in GPT." />
+    <Item id="18" name="System partition cannot be in dynamic disk or soft raid." />
+    <Item id="19" name="Unable to connect to Host. Uninstalltion stopped." />
+    <Item id="20" name="It is Maintenance Mode. FastIO driver cannot be uninstalled" />
+    <Item id="21" name="It is Maintenance Mode. Sangfor converter cannot be uninstalled." />
+    <Item id="22" name="Are you sure to cancel the operation?" />
+    <Item id="23" name="Failed to save computer file." />
+    <Item id="24" name="Failed to allocate memory." />
+    <Item id="25" name="Failed to create SangforVMS directory." />
+    <Item id="26" name="Failed to create uninstall shortcut." />
+    <Item id="27" name="Failed to create uninstall Sangfor Converter shortcut." />
+    <Item id="28" name="Failed to create auto login account. Reboot and then manually log in to uninstall it completely. " />
+    <Item id="29" name="Failed to delete Sangfor P2V Experience" />
+    <Item id="30" name="Failed to delete previous config file." />
+    <Item id="31" name="Failed to delete VM disk file. The file may be damaged. Please try again!" />
+    <Item id="32" name="Error loading service. Please reload or restart system.  " />
+    <Item id="33" name="Error loading driver. Please reload or restart system. " />
+    <Item id="34" name="Error loading driver or service. Please reload or restart system. " />
+    <Item id="35" name="Uninstall" />
+    <Item id="36" name="Ininstallation failed. Please try again." />
+    <Item id="37" name="Completed. Remaining files will be deleted after restart. Would you like to restart now?" />
+    <Item id="38" name="Uninstallation succeeded. Thank you for choosing Sangfor. " />
+    <Item id="39" name="Parameter Error" />
+    <Item id="40" name="Cancel" />
+    <Item id="41" name="Intel CPU supported only" />
+    <Item id="42" name="x64 CPU supported only" />
+    <Item id="43" name="Failed to write completion flag into registry." />
+    <Item id="44" name="Failed to write back data to disk." />
+    <Item id="45" name="Failed to install FastIO driver." />
+    <Item id="46" name="Failed to install Grub." />
+    <Item id="47" name="Failed to install uninstall service." />
+    <Item id="48" name="Failed to uninstall P2V." />
+    <Item id="49" name="Uninstall P2V successfully." />
+    <Item id="50" name="Preparing components..." />
+    <Item id="51" name="Decompress" />
+    <Item id="52" name="Failed to protect boot file." />
+    <Item id="53" name="Failed to protect Sangfor Converter config file." />
+    <Item id="54" name="Failed to uninstall Sangfor Converter." />
+    <Item id="55" name="Uninstall Sangfor Converter succeeded." />
+    <Item id="56" name="Failed to install Sangfor Converter. Please contact Sangfor tech support, or call us at 408-520-7898. Thank you for your feedback. " />
+    <Item id="57" name="Failed to check environment." />
+    <Item id="58" name="Failed to protect Sangfor Converter disk file." />
+    <Item id="59" name="Unable to find BCDEDIT.EXE " />
+    <Item id="60" name="Unable to find boot.ini file" />
+    <Item id="61" name="Unable to find uninstallation program." />
+    <Item id="62" name="Unable to find default boot options." />
+    <Item id="63" name="Failed to copy uninstall service to system directory." />
+    <Item id="64" name="Failed to obtain or install boot program." />
+    <Item id="65" name="Decompress file successfully" />
+    <Item id="66" name="Unknown boot type" />
+    <Item id="67" name="Unknown Error" />
+    <Item id="68" name="Failed to install Sangfor Converter. Please contact Sangfor tech support or call us at 408-520-7898. Thank you for your feedback." />
+    <Item id="69" name="At least one physical network adapter is required." />
+    <Item id="70" name="Failed to check E1000 network adapter driver." />
+    <Item id="71" name="Fixing compatibility" />
+    <Item id="72" name="Writing into VM config" />
+    <Item id="73" name="Preparing to install Sangfor Converter, please wait..." />
+    <Item id="74" name="Preparing disk..." />
+    <Item id="75" name="Preparing to run..." />
+    <Item id="76" name="Creating virtual disk..." />
+    <Item id="77" name="Installing FastIO driver..." />
+    <Item id="78" name="Installing..." />
+    <Item id="79" name="Completing..." />
+    <Item id="80" name="Testing E1000 network adapter driver..." />
+    <Item id="81" name="Obtaining system information..." />
+    <Item id="82" name="Configuring boot..." />
+    <Item id="83" name="Configuring network..." />
+    <Item id="84" name="Unable to find local storage. Please add local storage first. (Do you want to install it on FC storage?)" />
+    <Item id="85" name="Failed to register Sangfor P2V Converter." />
+    <Item id="86" name="Sangfor P2V Converter" />
+    <Item id="87" name="Failed to add Sangfor P2V Experience." />
+    <Item id="88" name="Failed to add Sangfor P2V Install." />
+    <Item id="89" name="Failed to add Sangfor P2V Migration" />
+    <Item id="90" name="Failed to clear configuration." />
+    <Item id="91" name="Physical memory must be larger than %uGB" />
+    <Item id="92" name="Physical disks cannot exceed %d" />
+    <Item id="93" name="Failed to generate virtual boot disk. " />
+    <Item id="94" name="Failed to generate virtual data disk" />
+    <Item id="95" name="Failed to generate virtual log disk" />
+    <Item id="96" name="Failed to generate computer information." />
+    <Item id="97" name="Are you sure to uninstall? (Data of new VMs will be cleared once it is uninstalled)  " />
+    <Item id="98" name="No SE_BACKUP_NAME and SE_RESTORE_NAME privilege. Please run the program as an administrator." />
+    <Item id="99" name="It contains uninitialized or unrecognizable disk" />
+    <Item id="100" name="It must be NTFS" />
+    <Item id="101" name="It contains offline local disk" />
+    <Item id="102" name="Minimum free disk space is 600MB" />
+    <Item id="103" name="Failed to restore network settings. Please configure network manually " />
+    <Item id="104" name="At least one disk with 55G free space is required" />
+    <Item id="105" name="Failed to obtain CPU disk information" />
+    <Item id="106" name="Failed to obtain host config" />
+    <Item id="107" name="Failed to obtain command line parameter." />
+    <Item id="108" name="Failed to obtain boot drive letter" />
+    <Item id="109" name="Failed to obtain local computer information." />
+    <Item id="110" name="Failed to obtain hardware information" />
+    <Item id="111" name="Failed to obtain hardware information." />
+    <Item id="112" name="Failed to obtain disk information" />
+    <Item id="113" name="Failed to obtain disk volume (partition) information" />
+    <Item id="114" name="Failed to obtain boot information" />
+    <Item id="115" name="Failed to obtain boot list" />
+    <Item id="116" name="Failed to obtain VM CPU config." />
+    <Item id="117" name="Failed to obtain VM memory config." />
+    <Item id="118" name="Failed to obtain VM icon config." />
+    <Item id="119" name="Failed to obtain VM basic parameters." />
+    <Item id="120" name="Failed to obtain VM hardware config. " />
+    <Item id="121" name="Failed to obtain VM disk config." />
+    <Item id="122" name="Failed to obtain advanced settings of virtual machine. " />
+    <Item id="123" name="Failed to obtain proxy IP address for migration." />
+    <Item id="124" name="Failed to fix compatibility issue." />
+    <Item id="125" name="Unable to install P2V software on virtual machine." />
+    <Item id="126" name="Sangfor Converter is not supported on virtual machine." />
+    <Item id="127" name="Sangfor Converter" />
+    <Item id="128" name="VM config is invalid." />
+    <Item id="129" name="Failed to protect virtual disk boot file." />
+    <Item id="130" name="Failed to protect virtual disk file. " />
+    <Item id="131" name="Failed to protect virtual disk log file. " />
+    <Item id="132" name="Failed to set IP address for HCI." />
+    <Item id="133" name="Failed to configure default boot options" />
+    <Item id="134" name="Please run this program as an administrator." />
+    <Item id="135" name="Please contact Sangfor Technical Support or call us at 408-520-7898. Thank you for your feedback." />
+    <Item id="136" name="Failed to read registry" />
+    <Item id="137" name="Specify a path to compress" />
+    <Item id="138" name="Failed to connect to HCI node. Please click back to perform the operation again." />
+    <Item id="139" name="Failed to notify Host to restart. Please restart Host manually" />
+    <Item id="140" name="Some files are damaged. Please decompress Sangfor P2V Converter again." />
+    <Item id="141" name="Failed to configure boot options." />
+    <Item id="142" name="Error" />
+    <Item id="143" name="At least one physical network adapter, and a maximum of 10 physical network adapters are required." />
+    <Item id="144" name="At least one basic disk partition with free space larger than 55G is required." />
+    <Item id="145" name="Internet Explorer 6.0 or later versions are supported only." />
+    <Item id="146" name="Sangfor Converter is already installed on this terminal. Do you want to upgrade it now? Note: If you want to install P2V software or convert physical machine, uninstall the existing Sangfor Converter through Control Panel." />
+    <Item id="147" name="Upgrade succeeded. Would you like to restart the system to complete upgrade? " />
+    <Item id="148" name="Failed to upgrade Sangfor Converter" />
+    <Item id="149" name="P2V software is already installed on this terminal. Please uninstall it in Control Panel. " />
+    <Item id="150" name="The current system is already installed Sangfor Converter. You may uninstall it in Control Panel.  " />
+    <Item id="151" name="Failed to load SFP2V driver. " />
+    <Item id="152" name="Number of CPU cores is more than the limit for a node. (For standard version, 4 CPU cores are allowed only)" />
+    <Item id="153" name="HTTP failed to receive response." />
+    <Item id="154" name="Failed to check VM config." />
+    <Item id="155" name="IP address is invalid." />
+    <Item id="156" name="Password is required. IP address: " />
+    <Item id="157" name="Node IP: " />
+    <Item id="158" name="Failed to allocate memory." />
+    <Item id="159" name="Memory size cannot exceed the maximum of host memory" />
+    <Item id="160" name="Failed to create P2VModThread." />
+    <Item id="161" name="Failed to send request" />
+    <Item id="162" name="To enable FastIO, model of all adapters should be FastIO" />
+    <Item id="163" name="Free space of datastore %s is %lluGB, but %lluGB is required." />
+    <Item id="164" name="Failed to check security certificate" />
+    <Item id="165" name="Password is required." />
+    <Item id="166" name="Required disk space should not be less than %luGB, but previsioned space is %luGB." />
+    <Item id="167" name="License check failed. Number of cores of destination clustered nodes cannot exceed the maximum: " />
+    <Item id="168" name="License check failed. Number of CPUs of destination clustered nodes cannot exceed the maximum:" />
+    <Item id="169" name="License check failed. Number of destination clustered nodes cannot exceed the maximum:" />
+    <Item id="170" name="Virtual switch %s(ID:%s) does not exist on the node. " />
+    <Item id="171" name="Cluster may be in Maintenance mode. Unable to perform Migrate operation." />
+    <Item id="172" name="Destination node is not a cluster controller. Controller IP: " />
+    <Item id="173" name="Destination node is not a cluster controller. Node IP: " />
+    <Item id="174" name="Disk partition: %s is refs partition and is not supported at present." />
+    <Item id="175" name="Disk partition: %s is dynamic disk partition and is not supported at present." />
+    <Item id="176" name="Disk partition: compression is enabled on partition %s and is not supported at present. " />
+    <Item id="177" name="Disk partition: %s is system partition and is not supported at present." />
+    <Item id="178" name="Disk partition: %s partition is on external storage and is not supported now." />
+    <Item id="179" name="IP address is required" />
+    <Item id="180" name="Failed to open request " />
+    <Item id="181" name="Invalid node" />
+    <Item id="182" name="Invalid datastore" />
+    <Item id="183" name="Unable to send request. Authentication is required." />
+    <Item id="184" name="Unable to establish connection." />
+    <Item id="185" name="Unable to open connection." />
+    <Item id="186" name="Unable to find requested certificate." />
+    <Item id="187" name="Unable to set certificate context " />
+    <Item id="188" name="Unable to connect to node. " />
+    <Item id="189" name="Unable to connect to node." />
+    <Item id="190" name="Node is not responding or returns invalid data. Please try again later." />
+    <Item id="191" name="HTTP code returned from node. Error code:" />
+    <Item id="192" name="Invalid data. Please try again later." />
+    <Item id="193" name="Unable to find the gateway on the same subnet with local IP address (%s). It may cause network settings error." />
+    <Item id="194" name="Unknown network connection error or timeout." />
+    <Item id="195" name="Failed to query HTTP header" />
+    <Item id="196" name="Failed to query HTTP settings" />
+    <Item id="197" name="Failed to query connection settings." />
+    <Item id="198" name="Max memory size per virtual machine for standard edition is %lldGB" />
+    <Item id="199" name="Failed to check clustered node license." />
+    <Item id="200" name="No selectable datastore." />
+    <Item id="201" name="Please select a primary HCI controller." />
+    <Item id="202" name="Node is not specified." />
+    <Item id="203" name="Failed to add request header." />
+    <Item id="204" name="Failed to log in to node." />
+    <Item id="205" name="Max memory size of virtual machine on destination node is %lldGB" />
+    <Item id="206" name="Free space of disk partition %s is %I64dB, but required space size is %I64dB." />
+    <Item id="207" name="Network adapter setting error" />
+    <Item id="208" name="Timed out." />
+    <Item id="209" name="Network settings are invalid. The NIC does not exist." />
+    <Item id="210" name="Failed to obtain primary HCI controller" />
+    <Item id="211" name="Failed to get cluster controller. Cluster controller IP:" />
+    <Item id="212" name="Failed to obtain HTTP response." />
+    <Item id="213" name="Failed to obtain HTTP status code." />
+    <Item id="214" name="Failed to obtain netmask of IP (%s)" />
+    <Item id="215" name="Failed to load datastores." />
+    <Item id="216" name="Failed to get destination HCI version.Please upgrate HCI to newest version." />
+    <Item id="217" name="Failed to obtain specific node ID. Node IP:" />
+    <Item id="218" name="Failed to obtain disk information" />
+    <Item id="219" name="Failed to obtain local computer information." />
+    <Item id="220" name="Failed to obtain local PC information." />
+    <Item id="221" name="Failed to obtain disk size." />
+    <Item id="222" name="Error obtaining datastore size." />
+    <Item id="223" name="Failed to obtain disk information or no disk is available." />
+    <Item id="224" name="Failed to obtain system certificate" />
+    <Item id="225" name="Failed to obtain network adapter information or there is no configurable adapter." />
+    <Item id="226" name="Failed to obtain VM configuration." />
+    <Item id="227" name="Failed to obtain computer information." />
+    <Item id="228" name="Failed to get clustered nodes. Cluster IP:" />
+    <Item id="229" name="The Sangfor Converter version is %s but HCI support %s. They are not matching. " />
+    <Item id="230" name="Virtual disk configuration is invalid. The disk partition does not exist." />
+    <Item id="231" name="Failed to set HTTP connection. " />
+    <Item id="232" name="Failed to set connection timeout. " />
+    <Item id="233" name="HA is not supported by Trial edition" />
+    <Item id="234" name="High priority is not supported by Trial and Standard edition " />
+    <Item id="235" name="For Trial edition, max memory size of virtual machine is %lldGB" />
+    <Item id="236" name="Please enter a valid IP address." />
+    <Item id="237" name="Destination node (%s) failed to connect to local PC (%s:%u). Please check if router and firewall allow it. " />
+    <Item id="238" name="The node is offline, or unable to access specified datastore  " />
+    <Item id="239" name="Returned data " />
+    <Item id="240" name="The IP address for access to HCI is not IP address of this local PC. Please make sure NAT is not applied." />
+    <Item id="241" name="Network connection error." />
+    <Item id="242" name="Failed to connect to node. Node IP: " />
+    <Item id="243" name="Please select source and destination node. " />
+    <Item id="244" name="Please select an available NIC." />
+    <Item id="245" name="HA does not support non-shared datastore. " />
+    <Item id="246" name="Failed to install FastIO serial port driver. View Error Log for details" />
+    <Item id="247" name="Failed to install FastIO disk driver. View Error Log for details" />
+    <Item id="248" name="Failed to install FastIO network adapter driver. View Error log for details" />
+    <Item id="249" name="Failed to install FastIO driver, likely because related system services (such as Windows Update) are disabled. Please start services and then install it again" />
+    <Item id="250" name="Maintenance mode is enabled. FastIO driver installation is not allowed " />
+    <Item id="251" name="Failed to create user account for auto login. To complete installation, restart and log into PC manually" />
+    <Item id="252" name="Since Windows Update is not enabled, it should be enabled to proceed. Would you like to enable it?" />
+    <Item id="253" name="Failed to start service. Go to Computer &gt; Manage &gt; Service and Applications to start it and then start installation." />
+    <Item id="254" name="Failed to install upgrade module" />
+    <Item id="255" name="Failed to install certificate" />
+    <Item id="256" name="Unknown Error. View Error Log for details" />
+    <Item id="257" name="You have not the permission to perform this operation" />
+    <Item id="258" name="Failed to register service. View Error Log for details" />
+    <Item id="259" name="System driver of this type is currently not supported" />
+    <Item id="260" name="Failed to register hardware check program. Please view error logs for details" />
+    <Item id="261" name="Failed to initialize programs. Please try again. " />
+    <Item id="262" name="Failed to restore network settings. Be about to log off. Please log in and configure network again" />
+    <Item id="263" name="Network settings are restored. Be about to log off." />
+    <Item id="264" name="Prompt dialog is not supported" />
+    <Item id="265" name="Tips" />
+    <Item id="266" name="Confirm" />
+    <Item id="267" name="Installing VMOptimizationTools, please wait" />
+    <Item id="268" name="VMOptimizationTools Installation Wizard" />
+    <Item id="269" name="Restart Now" />
+    <Item id="270" name="Later" />
+    <Item id="271" name="System reboot is required to complete installation and initialization, and may be required again during installation. Would you like to restart now?" />
+    <Item id="272" name="VMOptimizationTools Uninstallation" />
+    <Item id="273" name="Uninstallation may lead to the following:" />
+    <Item id="274" name="1. VM performance degrades" />
+    <Item id="275" name="2. VM backups on this local PC go wrong" />
+    <Item id="276" name="3. If number of disks and CD/DVD drives exceed 4, excessive items may become unavailable" />
+    <Item id="277" name="Are you sure to uninstall?" />
+    <Item id="278" name="OK" />
+    <Item id="279" name="Uninstalling driver completes. Reboot is required to make changes take effect. Would you like to restart now?" />
+    <Item id="280" name="Uninstalling VMOptimizationTools, please wait" />
+    <Item id="281" name="Recovering VM network settings, please wait..." />
+    <Item id="282" name="Upgrading Sangfor P2V Converter, please wait..." />
+    <Item id="283" name="Uninstalling Sangfor P2V Converter, please wait..." />
+    <Item id="284" name="I know the impacts caused by uninstallation. I am sure to uninstall it." />
+    <Item id="285" name="It could support local and FC storage only, and at most %d disks." />
+    <Item id="286" name="Failed to get destination datastore information. " />
+    <Item id="287" name="Error getting space of destination datastore (%s)." />
+    <Item id="288" name="Failed to get authentication information. " />
+    <Item id="289" name="Failed to get node information!" />
+    <Item id="290" name="Host ID is required!" />
+    <Item id="291" name="Failed to get node information and ID:" />
+    <Item id="292" name="Failed to get clustered node information. Cluster controller IP:" />
+    <Item id="293" name="Failed to initialize P2V client. Node IP:" />
+    <Item id="294" name="Failed to get node group directory." />
+    <Item id="295" name="The selected VM group is invalid. " />
+    <Item id="296" name="Please configure storage. " />
+    <Item id="297" name="Space of selected datastore is insufficient. " />
+    <Item id="298" name="The selected storage is not configured properly." />
+    <Item id="299" name="Failed to get node&apos;s storage list!" />
+    <Item id="300" name="Failed to read local storage capacity!" />
+    <Item id="301" name="Failed to get node&apos;s virtual switch list." />
+    <Item id="302" name="Specified node is not found. Node ID: " />
+    <Item id="303" name="Configuration of destination VM is lower than that required. " />
+    <Item id="304" name="It requires proper network settings." />
+    <Item id="305" name="It requires proper VM storage settings. " />
+    <Item id="306" name="It requires proper node configuration." />
+    <Item id="307" name="%s or %s does not exist. " />
+    <Item id="308" name="Failed to copy file %s to %s. Error code: %d" />
+    <Item id="309" name="Program internal error" />
+    <Item id="310" name="VMOptimizationTools" />
+    <Item id="311" name="Sangfor Converter" />
+    <Item id="312" name="Uninstall Sangfor Converter" />
+    <Item id="313" name="Uninstall P2V Experience" />
+    <Item id="314" name="Uninstall P2V Install" />
+    <Item id="315" name="Uninstall P2V Migration" />
+    <Item id="316" name="Are you sure to uninstall Sangfor Converter?" />
+    <Item id="317" name="Once Sangfor Converter is uninstalled: 1. P2V software and virtual machines on this node will be deleted, and need to be migrated to another node if necessary. 2. The operating system on this node will restore to the current operating system." />
+    <Item id="318" name="It is running as virtual machine. You need to perform restart to uninstall the Sangfor Converter completely. Would you like to continue and restart now?" />
+    <Item id="319" name="Continue" />
+    <Item id="320" name="Network network error occurs. Please go back, change the configuration and try again." />
+    <Item id="321" name="Unable to find the selected node and datastore: " />
+    <Item id="322" name="Unable to find the node. " />
+    <Item id="323" name="Operation filed. Please try again. " />
+    <Item id="324" name="Failed to change node for virtual machine. " />
+    <Item id="325" name="Failed to update disk. Please try again. " />
+    <Item id="326" name="Network connection error occurs. Please go back, change the configuration and try again. " />
+    <Item id="327" name="Failed to load FC disks. Please try again. " />
+    <Item id="328" name="Failed to load node groups. " />
+    <Item id="329" name="Failed to load node groups. Please go back and try again. " />
+    <Item id="330" name="Failed to load switches for node. " />
+    <Item id="331" name="Failed to load virual switches. Please go back and try again. " />
+    <Item id="332" name="Failed to load datastores. Please go back and try again." />
+    <Item id="333" name="Failed to load node. Please go back, change the configuration and try again." />
+    <Item id="334" name="Failed to load migration status. " />
+    <Item id="335" name="Failed to perform the subsequent operation after migration. " />
+    <Item id="336" name="Failed to receive request. " />
+    <Item id="337" name="Error configuration number of virtual machines. Please go back and try again. " />
+    <Item id="338" name="Failed to read size of local storage. Please go back and try again. " />
+    <Item id="339" name="Disks will be initialized during the migration process if they have not been initialized. You may refer to detail in GUI." />
+    <Item id="340" name="Message" />
+    <Item id="341" name="Migrating..." />
+    <Item id="342" name="Migrate" />
+    <Item id="343" name="Migrating, please wait..." />
+    <Item id="385" name="Migration failed.  You may try to use offline migration." />
+    <Item id="387" name="Live migration is not supported, for Volume Shadow Copy Service(VSS) is not available." />
+    <Item id="388" name="Allocate memory failed(at least 200MB). Close some applications and try again." />
+    <Item id="390" name="Support OS type: win2003/win2012/win2008/win7/winxp. Clean installation?" />
+    <Item id="391" name="Can not connect host(%s) on port %d." />
+    <Item id="392" name="Target host(%s) can not connect to localhost on port %d." />
+    <Item id="393" name="Snapshoting..." />
+    <Item id="394" name="the current system can not Support boot or system disk for GPT type, It is recommended to upgrade to windows server 2008 R2 version after try again!" />
+    <Item id="395" name="Preparing to migrate..." />
+    <Item id="396" name="A maximum of 4 hard disks can be migrated if NIC does not support Fast IO." />
+    <Item id="400" name="Number of CPU cores is more than the limit for a node. (The limit for the node is %d cores)" />
+    <Item id="401" name="Boot disk or system disk number that is greater than 3 is not supported." />
+    <Item id="402" name="disk has been offline." />
+    <Item id="403" name="None of any local disk or FC disk was recognized. Migration task cannot continue." />
+    <Item id="404" name="Failed to install FastIO Balloon driver. View Error log for details" />
+    <Item id="405" name="Failed to install FastIO USB3.0 XHCI Host controller driver. View Error log for details" />
+    <Item id="406" name="Failed to install FastIO USB3.0 XHCI Hub controller driver. View Error log for details" />
+    <Item id="407" name="Failed to install FastIO Graphics driver. View Error log for details" />
+    <Item id="500" name="Live migration is not supported, for Volume Shadow Copy Service(VSS) has been disabled." />
+    <Item id="501" name="Target storage is not supported dynamic disk allocation. Please choose another allocation method." />
+</content>

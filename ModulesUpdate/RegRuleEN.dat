@@ -1,0 +1,4 @@
+##前缀1表示只有目录，2表示包含item，3表示包含item和value。规则和提示之间用 ";+;" 分隔开,注册表中间用 "$^@" 分隔开 
+
+
+3HKEY_LOCAL_MACHINE$^@SYSTEM$^@CurrentControlSet$^@Control$^@Class$^@{4D36E967-E325-11CE-BFC1-08002BE10318}$^@LowerFilters$^@fsefd;+;Disksafe software is detected, please confirm whether disksafe backup is currently used, you need to contact the cdp manufacturer to confirm whether it supports kvm virtual machine and virtio disk, there is a risk of data loss!
